@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:rebeccapurple;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.pw-container{
+    background-color: rgb(61, 18, 103);
+    width: 400px;
+    box-shadow: 0 4px 8px rgb(0,0,1);
+}
+.pw-head{
+    padding: 0.5rem;
+    
+}
+.pw-body{
+    padding: 1rem;
+    padding-bottom: 1%;
+}
+.pw-body .form-control{
+    margin-top: 8px;
+}
+.pw-container .pw-header{
+    height: 50px;
+    width: 75%;  
+    margin: 15px 10px 0px 40px;  
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    position: relative;
+   /* overflow: auto;*/
+}
+.pw-header button{
+    margin-left: 70px;
+    border: none;
+    background-color: rgb(61, 18, 103);
+    color: antiquewhite;
+    padding: 0.4rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30%;
+    cursor: pointer;
+    transition: opacity 0.4s ease-in;
+    opacity: 0;
+}
+.pw-header:hover button{
+    opacity: 1;
+    color: rebeccapurple;
+}
+.form-control{
+    display: flex;
+    justify-content: space-between;
+}
+#generate{
+    margin: 16px 0px 4px 50px;
+    padding: 0.3rem;
+    border: none;
+    background-color: rgb(177, 129, 40);
+    display: block;
+    width: 70%;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
